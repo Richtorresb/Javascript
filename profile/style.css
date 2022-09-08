@@ -1,0 +1,209 @@
+header {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.inicio {
+    color: rgb(213, 208, 208);
+    margin-left: 10%;
+    display: inline-flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+li {
+    display: inline-block;
+    margin-right: 5px;
+}
+.inicio > h2, #profile {
+    color: white;
+}
+input[type="button"] {
+    margin-right: 60px;
+    color: white;
+    background-color: rgb(59, 158, 158);
+    height: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#cuerpo {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 7%;
+    height: 100%;
+}
+.primero {
+    margin-top: 20px;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+.personal {
+    height: 400px;
+    width: auto;
+    border: 5px solid gray;
+    padding: 0px;
+}
+.education {
+    margin-top: 10px;
+    height: 250px;
+    width: auto;
+    border: 5px solid gray;
+}
+.segundo {
+    margin-top: 20px;
+    margin-left: 15px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.conexion {
+    height: 260px;
+    width: auto;
+    border: 5px solid gray;
+}
+.tuconexion {
+    margin-top: 20px;
+    height: 320px;
+    width: auto;
+    border: 5px solid gray;
+}
+.vermas {
+    width: auto;
+    height: 50px;
+    border: 5px solid gray;
+    border-top: none;
+}
+h1 {
+    height: 130px;
+    margin: 0px;
+    background-color: rgb(57, 172, 172);
+    border: 1px solid rgb(57, 172, 172);
+}
+h3 {
+    height: 60px;
+    margin: 0px;
+    background-color: rgb(34, 34, 34);
+    border: 1px solid rgb(34, 34, 34);
+}
+.primero > img {
+    position: fixed;
+    border: 7px solid gray;
+    border-radius: 70px;
+    margin-top: 45px;
+    margin-left: 25px;
+}
+.personal h2 {
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+.personal p > img {
+    height: 20px;
+    width: 15px;
+    margin-left: 30px;
+}
+.personal span {
+    font-size: 23px;
+    margin-left: 10px;
+}
+.personal p:nth-child(4) {
+    margin-left: 30px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.personal p:last-child {
+    margin-top: 0px;
+    display: flex;
+    vertical-align: top;
+}
+.personal p:last-child a {
+    margin-left: 10px;
+    font-size: 15px;
+}
+.education h3 {
+    color: darkgrey;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+.education p {
+    margin-left: 30px;
+}
+.education p:nth-child(2) {
+    font-size: 20px;
+}
+.education p:nth-child(3) {
+    color: grey;
+}
+.conexion h3 {
+    color: grey;
+    padding-left: 7%;
+    padding-top: 10%;
+    display: flex;
+}
+.conexion h3 span {
+    background-color: gray;
+    color: black;
+    border-radius: 12px;
+    width: 18px;
+    height: 25px;
+    margin-right: 6px;
+    padding-left: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.conexion p img {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+.conexion p {
+    font-size: 20px;
+    margin-left: 7%;
+}
+.conexion p span {
+    margin-left: 10%;
+}
+.tuconexion h3 {
+    color: grey;
+    padding-left: 7%;
+    padding-top: 10%;
+    display: flex;
+}
+.tuconexion h3 span {
+    background-color: gray;
+    color: black;
+    border-radius: 20px;
+    width: 45px;
+    height: 25px;
+    margin-right: 6px;
+    padding-left: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.tuconexion p img {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+.tuconexion p {
+    font-size: 20px;
+    margin-left: 7%;
+}
+.vermas a {
+    display: flex;
+    margin-left: 7%;
+    padding-top: 5%;
+    font-size: large;
+}
+.primero .personal #editProfile{
+    font-size: 20px;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
